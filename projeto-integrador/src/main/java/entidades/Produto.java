@@ -10,6 +10,7 @@ import jakarta.persistence.ManyToOne;
 
 @Entity
 public class Produto {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer codigo;

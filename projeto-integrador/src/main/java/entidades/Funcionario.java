@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 public class Funcionario {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer codigo;
     
     public String nome;

@@ -8,8 +8,9 @@ import jakarta.persistence.OneToMany;
 
 @Entity
 public class ItemVenda {
+    
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer codigo;
 
     public Double valorParcial;
