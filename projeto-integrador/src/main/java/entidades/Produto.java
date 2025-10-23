@@ -28,7 +28,7 @@ public class Produto extends PanacheEntityBase{
     public Categoria categoria;
 
     @ManyToOne
-    public String fabricante;
+    public Fabricante fabricante;
     
 
 }
