@@ -16,7 +16,7 @@ public class ItemVendaRecurso {
     @Produces(MediaType.APPLICATION_JSON)
     public List<ItemVenda> listar() {
 
-        return ItemVenda.listAll(Sort.ascending("nome"));
+        return ItemVenda.listAll(Sort.ascending("codigo"));
     }
     
 }
