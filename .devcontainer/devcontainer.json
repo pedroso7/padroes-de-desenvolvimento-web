@@ -1,6 +1,5 @@
 {
-  "name": "Padrões de Desenvolvimento Web",
-  
+  "name": "Projeto Back",
   "build": {
     "dockerfile": "Dockerfile"
   },
